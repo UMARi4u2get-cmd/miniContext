@@ -7,7 +7,7 @@ function Login() {
 
   const { setuser } = useContext(UserContext);
   //   this "setuser" came from UserContextProvider.jsx
-  //   don't forget to  right the same variable object name
+  //   don't forget to write the same variable object name
 
   const handleSubmit = (e) => {
     e.preventDefault();
